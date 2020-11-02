@@ -1,0 +1,13 @@
+name: acoustic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - networkx
+  - matplotlib
+  - numpy
+  - python==3.8
+  - jupyterlab
+  - pip
+  - pip:
+      - flatland-rl
